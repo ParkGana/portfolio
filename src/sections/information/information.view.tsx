@@ -3,7 +3,7 @@ import { InformationStyle } from './information.style'
 
 export function Information() {
     return (
-        <InformationStyle.Container>
+        <InformationStyle.Container id="information">
             <Title title={'INFORMATION'} />
         </InformationStyle.Container>
     )

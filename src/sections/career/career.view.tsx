@@ -3,7 +3,7 @@ import { CareerStyle } from './career.style'
 
 export function Career() {
     return (
-        <CareerStyle.Container>
+        <CareerStyle.Container id="career">
             <Title title={'CAREER'} />
         </CareerStyle.Container>
     )

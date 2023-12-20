@@ -3,7 +3,7 @@ import { ProjectStyle } from './project.style'
 
 export function Project() {
     return (
-        <ProjectStyle.Container>
+        <ProjectStyle.Container id="project">
             <Title title={'PROJECT'} light />
         </ProjectStyle.Container>
     )

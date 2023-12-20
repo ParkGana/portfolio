@@ -3,7 +3,7 @@ import { SkillStyle } from './skill.style'
 
 export function Skill() {
     return (
-        <SkillStyle.Container>
+        <SkillStyle.Container id="skill">
             <Title title={'SKILL'} light />
         </SkillStyle.Container>
     )
