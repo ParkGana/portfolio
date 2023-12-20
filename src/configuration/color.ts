@@ -5,9 +5,9 @@ export const color = {
 
     gray: '#91979D',
 
-    section: {
-        light: '#EEEEEE',
-        dark: '#444444',
-        purple: '#604B93'
-    }
+    lightgray: '#EEEEEE',
+
+    darkgray: '#444444',
+
+    purple: '#604B93'
 }
