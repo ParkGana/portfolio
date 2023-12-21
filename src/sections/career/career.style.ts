@@ -3,15 +3,19 @@ import styled from 'styled-components'
 export namespace CareerStyle {
     export const Container = styled.div`
         ${({ theme }) => `
-            height: 500px;
-            padding: 20px;
-            background-color: ${theme.color.section.light};
-
-            ${theme.ratio.size({
-                large: ``,
-                medium: ``,
-                small: ``
-            })}
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            gap: 50px;
+            padding: 50px;
+            background-color: ${theme.color.lightgray};
         `}
+    `
+
+    export const SafetyContainer = styled.div`
+        max-width: 1200px;
+        display: grid;
+        align-items: start;
+        gap: 50px;
     `
 }
