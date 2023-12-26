@@ -9,5 +9,7 @@ export const color = {
 
     darkgray: '#444444',
 
-    purple: '#604B93'
+    purple: '#604B93',
+
+    blue: '#4469E0'
 }

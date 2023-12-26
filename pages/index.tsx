@@ -1,5 +1,4 @@
 import { Career } from '@/src/sections/career/career.view'
-import { Footer } from '@/src/components/footer/footer.view'
 import { Header } from '@/src/components/header/header.view'
 import { Information } from '@/src/sections/information/information.view'
 import { Project } from '@/src/sections/project/project.view'
@@ -15,7 +14,6 @@ export default function Page() {
             <Skill />
             <Project />
             <Career />
-            <Footer />
         </>
     )
 }
