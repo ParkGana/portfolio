@@ -11,10 +11,34 @@ export namespace MainStyle {
         `}
     `
 
-    export const Text = styled.div`
+    export const SafetyContainer = styled.div`
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        gap: 70px;
+        padding: 20px;
+    `
+
+    export const Title = styled.div`
         font-size: 50px;
         font-weight: 900;
         line-height: 60px;
         text-align: center;
     `
+
+    export namespace Explanation {
+        export const Container = styled.div`
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            gap: 20px;
+        `
+
+        export const Item = styled.div`
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+            text-align: center;
+        `
+    }
 }
