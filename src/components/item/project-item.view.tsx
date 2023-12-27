@@ -12,12 +12,13 @@ export function ProjectItem({ data, isApp }: { data: ProjectDataType; isApp: boo
             <ProjectItemStyle.SafetyContainer isApp={isApp}>
                 <ProjectItemStyle.Thumbnail src={data.screenshot[datas.page - 1]} isApp={isApp} />
                 <ProjectItemStyle.Contents.Container>
-                    <ProjectItemStyle.Contents.Feeling.Container>
-                        <ProjectItemStyle.Contents.Feeling.Text>
-                            {data.explanation}
-                        </ProjectItemStyle.Contents.Feeling.Text>
-                        <ProjectItemStyle.Contents.Feeling.Text>{data.feeling}</ProjectItemStyle.Contents.Feeling.Text>
-                    </ProjectItemStyle.Contents.Feeling.Container>
+                    <ProjectItemStyle.Contents.Explanation.Container>
+                        {data.explanation.map((explanation, index) => (
+                            <ProjectItemStyle.Contents.Explanation.Item key={index}>
+                                {explanation}
+                            </ProjectItemStyle.Contents.Explanation.Item>
+                        ))}
+                    </ProjectItemStyle.Contents.Explanation.Container>
                     <ProjectItemStyle.Contents.Information.Container>
                         {data.information.map((information, index) => (
                             <ProjectItemStyle.Contents.Information.SafetyContainer key={index}>

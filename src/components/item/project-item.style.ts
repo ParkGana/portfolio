@@ -64,7 +64,7 @@ export namespace ProjectItemStyle {
     export namespace Contents {
         export const Container = styled.div``
 
-        export namespace Feeling {
+        export namespace Explanation {
             export const Container = styled.div`
                 display: grid;
                 gap: 20px;
@@ -72,7 +72,7 @@ export namespace ProjectItemStyle {
                 border-bottom: 2px solid lightgray;
             `
 
-            export const Text = styled.div`
+            export const Item = styled.div`
                 ${({ theme }) => `
                     ${theme.font.body1};
                 `}
