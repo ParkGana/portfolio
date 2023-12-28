@@ -18,7 +18,7 @@ export function Skill() {
                     <SkillItem title={'Database'} items={['mysql', 'mongodb', 'postgresql']} />
                 </SkillStyle.GridContainer>
                 <SkillStyle.GridContainer last>
-                    <SkillItem title={'Tool'} items={['Git', 'Github', 'firebase', 'figma']} />
+                    <SkillItem title={'Tool'} items={['git', 'github', 'firebase', 'figma']} />
                     <SkillItem title={'Certification'} items={['qnet']} />
                 </SkillStyle.GridContainer>
             </SkillStyle.SafetyContainer>
