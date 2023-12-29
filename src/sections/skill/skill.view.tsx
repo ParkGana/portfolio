@@ -15,10 +15,10 @@ export function Skill() {
                 <SkillStyle.GridContainer>
                     <SkillItem title={'Backend'} items={['nodejs', 'nestjs']} />
                     <SkillItem title={'Server'} items={['aws-ec2']} />
-                    <SkillItem title={'Database'} items={['mysql', 'mongodb', 'postgresql']} />
+                    <SkillItem title={'Database'} items={['mysql', 'mongodb', 'postgresql', 'firebase']} />
                 </SkillStyle.GridContainer>
                 <SkillStyle.GridContainer last>
-                    <SkillItem title={'Tool'} items={['git', 'github', 'firebase', 'figma']} />
+                    <SkillItem title={'Tool'} items={['git', 'github', 'figma']} />
                     <SkillItem title={'Certification'} items={['qnet']} />
                 </SkillStyle.GridContainer>
             </SkillStyle.SafetyContainer>
