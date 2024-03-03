@@ -38,7 +38,7 @@ export const ProjectData: ProjectDataType[] = [
                 value: 'https://github.com/ParkGana/portfolio'
             }
         ],
-        screenshot: ['/images/portfolio-1.png']
+        screenshot: ['/images/project/portfolio-1.png']
     },
     {
         type: 'app',
@@ -71,11 +71,11 @@ export const ProjectData: ProjectDataType[] = [
             }
         ],
         screenshot: [
-            '/images/camping-1.png',
-            '/images/camping-2.png',
-            '/images/camping-3.png',
-            '/images/camping-4.png',
-            '/images/camping-5.png'
+            '/images/project/camping-1.png',
+            '/images/project/camping-2.png',
+            '/images/project/camping-3.png',
+            '/images/project/camping-4.png',
+            '/images/project/camping-5.png'
         ]
     },
     {
@@ -100,7 +100,7 @@ export const ProjectData: ProjectDataType[] = [
                 value: 'https://github.com/ParkGana/lecture-react-native-todo-app'
             }
         ],
-        screenshot: ['/images/todo-1.png']
+        screenshot: ['/images/project/todo-1.png']
     },
     {
         type: 'web',
@@ -129,11 +129,11 @@ export const ProjectData: ProjectDataType[] = [
             }
         ],
         screenshot: [
-            '/images/youtube-1.png',
-            '/images/youtube-2.png',
-            '/images/youtube-3.png',
-            '/images/youtube-4.png',
-            '/images/youtube-5.png'
+            '/images/project/youtube-1.png',
+            '/images/project/youtube-2.png',
+            '/images/project/youtube-3.png',
+            '/images/project/youtube-4.png',
+            '/images/project/youtube-5.png'
         ]
     }
 ]
