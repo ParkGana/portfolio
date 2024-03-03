@@ -6,6 +6,7 @@ export interface CareerDataType {
         explanation: string
         role: string
     }
+    skill: string
     work: {
         title: string
         explanation?: string
@@ -23,6 +24,7 @@ export const CareerData: CareerDataType[] = [
                 '뇌졸중, 치매 등의 질병으로 인해 언어 및 인지 기능에 장애가 생긴 사람들을 대상으로 하는 태블릿 기반의 언어 및 인지 재활 프로그램(Zenicog)을 개발하는 회사입니다.',
             role: 'TypeScript와 React 기반의 웹 프론트 개발을 메인으로 담당하였고, 기존 API 보완 및 신규 API 생성 등 백엔드 개발을 보조하였습니다. 또한 Zenicog 컨텐츠와 관련된 데이터 및 리소스 파일에 대한 관리도 담당하였습니다.'
         },
+        skill: 'JavaScript, TypeScript, HTML5, CSS3, React, Next.js, Node.js, Nest.js, PostgreSQL, Figma',
         work: [
             {
                 title: '회사 홈페이지 개편',
@@ -89,6 +91,7 @@ export const CareerData: CareerDataType[] = [
                 '사용자가 입력한 내용을 영상 형태의 명함으로 제작해주는 프로그램(Salespoolin)을 개발하는 회사입니다.',
             role: 'JavaScript와 Node.js 기반의 웹 프론트 개발부터, 데이터베이스 설계 및 API 생성 등 백엔드 개발까지 풀스텍 개발자로서의 역할을 담당하였습니다.'
         },
+        skill: 'JavaScript, HTML5, CSS3, Node.js, MySQL, AWS EC2',
         work: [
             {
                 title: 'Salespoolin 솔루션 개발 및 유지보수',

@@ -14,6 +14,10 @@ export function CareerItem({ data }: { data: CareerDataType }) {
                     </CareerItemStyle.Company.Explanation>
                     <CareerItemStyle.Company.Role>{data.company.role}</CareerItemStyle.Company.Role>
                 </CareerItemStyle.Company.Container>
+                <CareerItemStyle.Skill.Container>
+                    <CareerItemStyle.Skill.Title>사용 기술</CareerItemStyle.Skill.Title>
+                    <CareerItemStyle.Skill.Text>{data.skill}</CareerItemStyle.Skill.Text>
+                </CareerItemStyle.Skill.Container>
                 <CareerItemStyle.Work.Container>
                     {data.work.map((work, index) => (
                         <CareerItemStyle.Work.SafetyContainer key={index}>

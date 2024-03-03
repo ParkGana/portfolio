@@ -87,6 +87,28 @@ export namespace CareerItemStyle {
         `
     }
 
+    export namespace Skill {
+        export const Container = styled.div`
+            display: grid;
+            gap: 20px;
+            margin: 0 30px;
+            padding: 20px 0;
+            border-bottom: 2px solid lightgray;
+        `
+
+        export const Title = styled.div`
+            ${({ theme }) => `
+                ${theme.font.title3};
+            `}
+        `
+
+        export const Text = styled.div`
+            ${({ theme }) => `
+                ${theme.font.body1};
+            `}
+        `
+    }
+
     export namespace Work {
         export const Container = styled.div`
             display: grid;
