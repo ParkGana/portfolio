@@ -13,6 +13,39 @@ export interface ProjectDataType {
 export const ProjectData: ProjectDataType[] = [
     {
         type: 'web',
+        title: '미니 게임 사이트',
+        period: '2024.02 ~ (개인 프로젝트)',
+        explanation: [
+            '간단한 미니 게임들을 할 수 있는 사이트입니다. `마인드허브` 재직 당시 주요 제품이 미니 게임 형태의 컨텐츠가 모여 있는 프로그램이었는데 태블릿 기반이었다 보니 앱 개발자들이 개발을 담당하였고, 웹 형태로 만들어보고 싶다는 생각을 자주 하다가 이번 기회에 실행에 옮기게 되었습니다.',
+            '지금까지의 개발은 대부분 정적인 형태의 사이트였는데 이번 프로젝트에서는 게임이라는 컨텐츠의 특성상 동적인 형태의 기능을 하는 코딩을 해보는 경험을 할 수 있었습니다.',
+            '그동안은 단순히 각각의 컴포넌트에서 useState를 사용하여 상태 관리를 하다가 처음으로 Redux를 사용해 봄으로써 보다 편리하게 상태 관리를 할 수 있었습니다.'
+        ],
+        information: [
+            {
+                field: '게임 종류',
+                value: '스네이크, 인물 맞추기, 지뢰찾기, 캐릭터 맞추기, 테트리스, 2048'
+            },
+            {
+                field: '사용 기술',
+                value: 'TypeScript / React / Next.js / Redux'
+            },
+
+            {
+                field: 'Github',
+                value: 'https://github.com/ParkGana/game-web'
+            }
+        ],
+        screenshot: [
+            '/images/project/game-guess-character.png',
+            '/images/project/game-guess-people.png',
+            '/images/project/game-minesweeper.png',
+            '/images/project/game-puzzle-number.png',
+            '/images/project/game-snake.png',
+            '/images/project/game-tetris.png'
+        ]
+    },
+    {
+        type: 'web',
         title: '포트폴리오 사이트',
         period: '2023.12 (개인 프로젝트)',
         explanation: [
