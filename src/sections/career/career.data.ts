@@ -21,7 +21,7 @@ export const CareerData: CareerDataType[] = [
             name: '마인드허브',
             period: '2022.05 ~ 2023.05 (1년 1개월)',
             explanation:
-                '뇌졸중, 치매 등의 질병으로 인해 언어 및 인지 기능에 장애가 생긴 사람들을 대상으로 하는 태블릿 기반의 언어 및 인지 재활 프로그램(Zenicog)을 개발하는 회사입니다.',
+                '뇌졸중, 치매 등의 질병으로 인해 언어 및 인지 기능에 장애가 생긴 사람들을 대상으로 하는 재활 프로그램인 Zenicog를 개발하는 회사입니다.',
             role: 'TypeScript와 React 기반의 웹 프론트 개발을 메인으로 담당하였고, 기존 API 보완 및 신규 API 생성 등 백엔드 개발을 보조하였습니다. 또한 Zenicog 컨텐츠와 관련된 데이터 및 리소스 파일에 대한 관리도 담당하였습니다.'
         },
         skill: 'JavaScript, TypeScript, HTML5, CSS3, React, Next.js, Node.js, Nest.js, PostgreSQL, Figma',
@@ -29,13 +29,13 @@ export const CareerData: CareerDataType[] = [
             {
                 title: '회사 홈페이지 개편',
                 detail: [
-                    'JavaScript로 구현된 코드를 TypeScript로 변환',
-                    '반응형 화면 구현',
-                    '변경된 요구사항에 따라 화면 재구성'
+                    'JavaScript로 구현된 코드를 TypeScript로 변환'
+                    // '반응형 화면 구현',
+                    // '변경된 요구사항에 따라 화면 재구성'
                 ]
             },
             {
-                title: 'Zenicog 백오피스 개발',
+                title: 'Zenicog 백오피스 개발 및 유지보수',
                 explanation:
                     'Zenicog를 사용하는 훈련 대상자(환자)를 관리하는 기관 및 치료사들이 사용하는 관리자 페이지',
                 detail: [
@@ -49,7 +49,7 @@ export const CareerData: CareerDataType[] = [
                 ]
             },
             {
-                title: 'Zenicog 관제센터 개발',
+                title: 'Zenicog 관제센터 개발 및 유지보수',
                 explanation: '마인드허브 내부의 영업 담당자가 사용하는 슈퍼 관리자 페이지',
                 detail: [
                     '기관 관리 기능 개발',
@@ -62,23 +62,16 @@ export const CareerData: CareerDataType[] = [
                 ]
             },
             {
-                title: 'Zenicog 브랜드 사이트 개발',
+                title: 'Zenicog 브랜드 사이트 개발 및 유지보수',
                 explanation: 'Zenicog에 대한 전반적인 소개를 하는 사이트',
                 detail: [
                     '제품 소개가 주 목적이므로 특별한 기능보다는 퍼블리싱 위주의 코드로 구성',
-                    '반응형 화면 구현',
-                    '컨텐츠 소개',
                     '데모 체험을 위한 신청 양식 제공'
                 ]
             },
             {
-                title: '백엔드 개발 보조',
-                detail: [
-                    '기존 API 오류 수정',
-                    '신규 API 생성',
-                    '데이터베이스에 컨텐츠 관련 데이터 생성',
-                    'AWS S3에 컨텐츠 관련 리소스 파일 업로드'
-                ]
+                title: 'Zenicog 백엔드 개발 보조',
+                detail: ['기존 API 수정 및 신규 API 생성', '컨텐츠 관련 리소스 파일 및 데이터 관리']
             }
         ]
     },
@@ -88,13 +81,13 @@ export const CareerData: CareerDataType[] = [
             name: '파운더',
             period: '2021.04 ~ 2021.10 (7개월)',
             explanation:
-                '사용자가 입력한 내용을 영상 형태의 명함으로 제작해주는 프로그램(Salespoolin)을 개발하는 회사입니다.',
+                '사용자가 입력한 내용을 영상 형태의 명함으로 제작해주는 프로그램인 Salespoolin을 개발하는 회사입니다.',
             role: 'JavaScript와 Node.js 기반의 웹 프론트 개발부터, 데이터베이스 설계 및 API 생성 등 백엔드 개발까지 풀스텍 개발자로서의 역할을 담당하였습니다.'
         },
         skill: 'JavaScript, HTML5, CSS3, Node.js, MySQL, AWS EC2',
         work: [
             {
-                title: 'Salespoolin 솔루션 개발 및 유지보수',
+                title: 'Salespoolin 개발 및 유지보수',
                 detail: [
                     '회사 및 부서, 직원 관리 기능 개발',
                     '영상 명함 템플릿 선택 및 미리보기 기능 개발',
@@ -106,12 +99,8 @@ export const CareerData: CareerDataType[] = [
                 ]
             },
             {
-                title: '백엔드 개발 및 유지보수',
-                detail: ['데이터베이스 설계', 'API 생성']
-            },
-            {
-                title: '서버 구축',
-                detail: ['AWS EC2 인스턴스에 서버 구축', 'PM2를 이용하여 무중단 서비스 구현']
+                title: 'Salespoolin 데이터베이스 및 서버 구축',
+                detail: ['데이터베이스 설계', 'AWS EC2 인스턴스에 서버 구축', 'PM2를 이용하여 무중단 서비스 구현']
             }
         ]
     }
