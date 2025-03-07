@@ -8,14 +8,14 @@ export function Skill() {
             <Title title={'SKILL'} light />
             <SkillStyle.SafetyContainer>
                 <SkillStyle.GridContainer>
-                    <SkillItem title={'Language'} items={['javascript', 'typescript', 'html', 'css']} />
-                    <SkillItem title={'Frontend'} items={['react', 'nextjs']} />
-                    <SkillItem title={'Mobile App'} items={['react-native']} />
+                    <SkillItem title={'Web'} items={['javascript', 'typescript', 'react', 'nextjs']} />
+                    <SkillItem title={'App'} items={['pwa']} />
+                    <SkillItem title={'Style'} items={['styledcomponents', 'tailwindcss']} />
                 </SkillStyle.GridContainer>
                 <SkillStyle.GridContainer>
-                    <SkillItem title={'Backend'} items={['nodejs', 'nestjs']} />
-                    <SkillItem title={'Server'} items={['aws-ec2']} />
-                    <SkillItem title={'Database'} items={['mysql', 'mongodb', 'postgresql', 'firebase']} />
+                    <SkillItem title={'State'} items={['redux', 'zustand', 'reactquery']} />
+                    <SkillItem title={'Database'} items={['postgresql', 'supabase']} />
+                    <SkillItem title={'Server'} items={['vercel']} />
                 </SkillStyle.GridContainer>
                 <SkillStyle.GridContainer last>
                     <SkillItem title={'Tool'} items={['git', 'github', 'figma']} />
