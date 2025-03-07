@@ -27,11 +27,11 @@ export const ProjectData: ProjectDataType[] = [
             },
             {
                 field: 'URL',
-                value: 'https://kbo-calendar.dev-gana.com/'
+                value: 'https://hanjanhae.vercel.app'
             },
             {
                 field: 'Github',
-                value: 'https://github.com/ParkGana/kbo-calendar'
+                value: 'https://github.com/ahh0619/HANJANHAE'
             }
         ],
         screenshot: [
@@ -59,7 +59,7 @@ export const ProjectData: ProjectDataType[] = [
             },
             {
                 field: 'URL',
-                value: 'https://kbo-calendar.dev-gana.com/'
+                value: 'https://kbo-calendar.dev-gana.com'
             },
             {
                 field: 'Github',
