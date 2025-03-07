@@ -99,6 +99,7 @@ export const ProjectData: ProjectDataType[] = [
         screenshot: [
             '/images/project/game-minesweeper.png',
             '/images/project/game-omok.png',
+            '/images/project/game-puzzle.png',
             '/images/project/game-snake.png',
             '/images/project/game-tetris.png',
             '/images/project/game-threes.png'
